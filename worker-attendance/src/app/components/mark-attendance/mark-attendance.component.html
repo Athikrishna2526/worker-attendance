@@ -1,0 +1,9 @@
+<div class="center">
+    <h1>
+        {{liveTime | date:'medium'}}
+    </h1>
+    <div class="mt-4">
+        <button class="btn btn-info mr-5" (click)="onPunchIn()">Punch In</button>
+        <button class="btn btn-info"(click)="onPunchOut()">Punch Out</button>
+    </div>
+</div>
